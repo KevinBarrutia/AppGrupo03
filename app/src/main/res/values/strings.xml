@@ -29,4 +29,5 @@
     <string name="val_tv_info_perro">TextView</string>
     <string name="val_tv_duenio">José Alberto Coronado Quispe</string>
     <string name="val_tv_nom_perro">Dan</string>
+    <string name="title_listado_reservas">LISTADO DE RESERVAS</string>
 </resources>
