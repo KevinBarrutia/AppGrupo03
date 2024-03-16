@@ -7,16 +7,11 @@
     <fragment
         android:id="@+id/formularioFragment"
         android:name="pe.edu.idat.appgrupo03.FormularioFragment"
-        android:label="fragment_formulario"
+        android:label="@string/Formulario"
         tools:layout="@layout/fragment_formulario" />
-    <fragment
-        android:id="@+id/formularioInfoFragment"
-        android:name="pe.edu.idat.appgrupo03.FormularioInfoFragment"
-        android:label="fragment_formulario_info"
-        tools:layout="@layout/fragment_formulario_info" />
     <fragment
         android:id="@+id/listadoFragment"
         android:name="pe.edu.idat.appgrupo03.ListadoFragment"
-        android:label="fragment_listado"
+        android:label="@string/Listado"
         tools:layout="@layout/fragment_listado" />
 </navigation>
