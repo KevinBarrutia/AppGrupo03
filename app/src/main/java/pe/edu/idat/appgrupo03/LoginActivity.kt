@@ -30,20 +30,21 @@ class LoginActivity : AppCompatActivity(), OnClickListener {
     // VALIDACION DE CAMPOS
     private fun validarCampos(): Boolean {
 
-        val email = binding.etEmail.text.toString()
+        val id = binding.etId.text.toString()
         val password = binding.etPassword.text.toString()
 
-        if (email.isEmpty() || password.isEmpty()) {
+        if (id.isEmpty() || password.isEmpty()) {
             Toast.makeText(this, "Por favor complete todos los campos", Toast.LENGTH_SHORT).show()
             return false
         }
-        val emailRegex = Regex("^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,3})+\$")
-        if (!email.contains(emailRegex)) {
-            Toast.makeText(this, "Por favor ingrese un Email valido", Toast.LENGTH_SHORT).show()
+        //validar id : Grupo03
+        if (id != "Grupo03") {
+            Toast.makeText(this, "ID incorrecto", Toast.LENGTH_SHORT).show()
             return false
         }
-        if (password.length < 6) {
-            Toast.makeText(this, "La contraseña debe tener al menos 6 caracteres", Toast.LENGTH_SHORT).show()
+        //Validar contraseña: SYS123
+        if (password != "SYS123") {
+            Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show()
             return false
         }
 

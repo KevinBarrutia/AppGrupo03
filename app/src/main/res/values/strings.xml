@@ -18,4 +18,5 @@
     <string name="btnIngresar">Ingresar</string>
     <string name="valetemail">Email</string>
     <string name="valetpassword">Password</string>
+    <string name="valetid">Id</string>
 </resources>
