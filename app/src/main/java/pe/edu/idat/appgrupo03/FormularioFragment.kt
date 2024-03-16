@@ -17,6 +17,7 @@ class FormularioFragment : Fragment() {
     ): View? {
         _binding = FragmentFormularioBinding.inflate(inflater, container, false)
 
+
         return binding.root
     }
 
