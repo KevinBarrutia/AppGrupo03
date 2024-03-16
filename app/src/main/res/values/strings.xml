@@ -16,4 +16,7 @@
     <string name="Formulario_Info">Formulario Info</string>
     <string name="Listado">Listado</string>
     <string name="btnIngresar">Ingresar</string>
+    <string name="valetemail">Email</string>
+    <string name="valetpassword">Password</string>
+    <string name="valetid">Id</string>
 </resources>
