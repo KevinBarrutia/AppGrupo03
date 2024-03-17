@@ -1,11 +1,11 @@
 package pe.edu.idat.appgrupo03
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.View.OnClickListener
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import pe.edu.idat.appgrupo03.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity(), OnClickListener {
@@ -20,9 +20,8 @@ class LoginActivity : AppCompatActivity(), OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.btnIngresar -> {
-                startActivity(Intent(applicationContext, MainActivity::class.java))
                 if (validarCampos()) {
-
+                    startActivity(Intent(applicationContext, MainActivity::class.java))
                 }
             }
         }

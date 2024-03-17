@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
-import pe.edu.idat.appgrupo03.databinding.FragmentFormularioBinding
 import pe.edu.idat.appgrupo03.databinding.FragmentFormularioInfoBinding
 
 class FormularioInfoFragment : Fragment() {

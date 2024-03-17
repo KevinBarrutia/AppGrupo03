@@ -99,8 +99,11 @@ class FormularioFragment : Fragment(), View.OnClickListener, AdapterView.OnItemS
             binding.spnCantidad.requestFocus()
         } else if (binding.etInicio.text.isEmpty()) {
             binding.etInicio.requestFocus()
+            binding.etInicio.error = "¡Debe ingresar una fecha de inicio! >:("
         } else if (binding.etFin.text.isEmpty()) {
             binding.etFin.requestFocus()
+            binding.etFin.error = "¡Debe ingresar una fecha de fin! >:("
+
         } else {
             return true
         }
