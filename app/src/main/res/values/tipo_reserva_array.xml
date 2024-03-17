@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="tipo_reserva">
+        <item>Seleccionar tipo de servicio:</item>
         <item>Paseo de perros</item>
         <item>Corte de perros</item>
         <item>Baño de perros</item>

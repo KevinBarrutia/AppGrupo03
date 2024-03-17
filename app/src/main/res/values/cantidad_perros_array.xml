@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="cantidad_perros">
+        <item>Seleccionar cantidad de perros:</item>
         <item>1 Perro</item>
         <item>2 Perros</item>
         <item>3 Perros</item>

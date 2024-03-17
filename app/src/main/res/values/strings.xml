@@ -25,9 +25,9 @@
     <string name="title_duenio">Dueño:</string>
     <string name="val_tv_direccion">Miraflores, Lima - Perú</string>
     <string name="val_tv_estado">Conectado: Ahora</string>
-    <string name="val_tv_facebook">www.facebook.com</string>
-    <string name="val_tv_info_perro">TextView</string>
-    <string name="val_tv_duenio">José Alberto Coronado Quispe</string>
+    <string name="val_tv_facebook">www.facebook.com/manuel</string>
+    <string name="val_tv_info_perro">Dante es un cachorro mimado con una personalidad encantadora y traviesa. Criado en un hogar donde recibió todo el amor y atención, se ha convertido en el consentido de la familia. Con sus ojos brillantes y su pelaje suave, es difícil resistirse a sus encantos. Sin embargo, su mimada naturaleza a veces puede llevarlo a comportarse de manera caprichosa, demandando constantes mimos y atención. A pesar de sus travesuras, su lealtad y afecto hacia su familia son innegables, haciendo que cada día sea una aventura llena de amor y diversión</string>
+    <string name="val_tv_duenio">Manuel Arturo Coronado Preciado</string>
     <string name="val_tv_nom_perro">Dan</string>
     <string name="title_listado_reservas">LISTADO DE RESERVAS</string>
     <string name="valetemail">Email</string>
