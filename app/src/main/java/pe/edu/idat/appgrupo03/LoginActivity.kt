@@ -20,8 +20,9 @@ class LoginActivity : AppCompatActivity(), OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.btnIngresar -> {
+                startActivity(Intent(applicationContext, MainActivity::class.java))
                 if (validarCampos()) {
-                    startActivity(Intent(applicationContext, MainActivity::class.java))
+
                 }
             }
         }

@@ -8,10 +8,26 @@
         android:id="@+id/formularioFragment"
         android:name="pe.edu.idat.appgrupo03.FormularioFragment"
         android:label="@string/Formulario"
-        tools:layout="@layout/fragment_formulario" />
+        tools:layout="@layout/fragment_formulario">
+        <action
+            android:id="@+id/action_formularioFragment_to_formularioInfoFragment"
+            app:destination="@id/formularioInfoFragment" />
+        <argument
+            android:name="reservas"
+            app:argType="java.util.ArrayList" />
+    </fragment>
     <fragment
         android:id="@+id/listadoFragment"
         android:name="pe.edu.idat.appgrupo03.ListadoFragment"
         android:label="@string/Listado"
         tools:layout="@layout/fragment_listado" />
+    <fragment
+        android:id="@+id/formularioInfoFragment"
+        android:name="pe.edu.idat.appgrupo03.FormularioInfoFragment"
+        android:label="Listado de Reservas"
+        tools:layout="@layout/fragment_formulario_info">
+        <argument
+            android:name="reservas"
+            app:argType="java.util.ArrayList" />
+    </fragment>
 </navigation>

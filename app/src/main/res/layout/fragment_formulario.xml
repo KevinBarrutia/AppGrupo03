@@ -147,7 +147,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <Spinner
-        android:id="@+id/spTipo"
+        android:id="@+id/spnTipo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -158,7 +158,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <Spinner
-        android:id="@+id/spCantidad"
+        android:id="@+id/spnCantidad"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -166,7 +166,7 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/spTipo" />
+        app:layout_constraintTop_toBottomOf="@+id/spnTipo" />
 
     <EditText
         android:id="@+id/etInicio"
@@ -174,13 +174,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:focusable="false"
         android:hint="@string/val_hint_inicio"
         android:importantForAutofill="no"
-        android:inputType="date"
+        android:inputType="none"
         android:minHeight="48dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/spCantidad"
+        app:layout_constraintTop_toBottomOf="@+id/spnCantidad"
         tools:ignore="VisualLintTextFieldSize" />
 
     <EditText
@@ -189,9 +190,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:focusable="false"
         android:hint="@string/val_hint_fin"
         android:importantForAutofill="no"
-        android:inputType="date"
+        android:inputType="none"
         android:minHeight="48dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
